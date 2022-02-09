@@ -92,10 +92,9 @@ Package Section
   text-align:center;
   font-weight: 600;
   color:#096767;
-  margin: 0 auto;
   border:0;
   background-color: #ffffff;
-  margin-bottom:25px;
+  margin:auto;
 }
 .appear-button:hover {
 
@@ -109,32 +108,39 @@ margin-bottom:1em;
 
 }
 .features-section {
-
+  opacity: 0;
   width:100%;
-  margin-bottom:250px;
-  opacity:0;
-  height:0px !important;
-  display: block;
-
+  padding:0 !important;
+  height:0px;
+  font-size: 0px !important;
 }
 .transform  {
-  -webkit-transition: all 0.5s ease;  
-  -moz-transition: all 0.5s ease;  
-  -o-transition: all 0.5s ease;  
-  -ms-transition: all 0.5s ease;  
-  transition: all 0.5s ease;
+  -webkit-transition: all 1s ease;  
+  -moz-transition: all 1s ease;  
+  -o-transition: all 1s ease;  
+  -ms-transition: all 1s ease;  
+  transition: all 1s ease;
 }
 .transform-active {
-
   opacity:1;
-
+  width:100%;
+  font-size: 1em !important;
 }
-.features-grid  { 
+.features-grid { 
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-left: 80px;
   margin-right: 80px;
-  padding-bottom:50px;
 }
-.features-section th, .features-section td{ width:33%;padding-left:10px;padding-right:10px;vertical-align: text-top;}
+.footer-section { 
+  width:100%;
+  height:75px;
+}
+.footer-grid { 
+  padding:0;
+  margin:0;
+}
+.features-section th, .features-section td{ width:33%;padding-right:10px;vertical-align: text-top;}
 .features-section th{line-height: 1em;padding-bottom: 1em;padding-right: 10px;color: #f79e1b;}
 .features-section tr{border-bottom:1px solid #e4e4e4;}
 .border-right{border-right:1px solid #e4e4e4;}

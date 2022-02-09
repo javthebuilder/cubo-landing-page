@@ -139,7 +139,8 @@
   .pricing-grid {padding-left: 0px;padding-right: 0px;margin-top: 20px;}
   .more-features{font-size:14px;}
   .features-table th  {font-size:14px;}
-  .features-grid  {font-size:14px;}
+  .features-grid  {font-size:0.7em;}
+  .package-section h3 {font-size:43px;}
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
@@ -213,6 +214,7 @@
   .pricing-item h2{font-size:26px;}
   .pricing-item h6{font-size:14px;}
   .pricing-grid {padding-left: 0px;padding-right: 0px;margin-top: 20px;}
+  .features-grid  {font-size:0.5em;}
 
 
 
@@ -284,6 +286,7 @@
   }
 }
 @media (max-width: 425px) {
+
   .service-style-one .single-service .text {padding-right: 5px;padding-left: 10px;}
   .service-style-one .single-service .text h5 {font-size: 18px;}
   .service-style-one .single-service .text p {padding-bottom: 5px;}
@@ -293,6 +296,7 @@
   .pricing-item h2{font-size:29px;}
   .features-grid{margin-left:25px;margin-right:25px;}
   .features-section{font-size:11px;}
+  .package-section h3 {font-size: 33px;margin: 25px;}
 
 }
 @media (max-width: 380px) {
@@ -305,4 +309,7 @@
   .features-section{font-size:11px;}
   .features-grid  {margin-left: 25px;margin-right:25px;}
   .appear-button{font-size:12px;}
+  .feature-banner .opacity h2{font-size:34px !important;line-height:29px !important;}
+  .package-section h3 {font-size: 30px;margin: 25px;}
+
 }
