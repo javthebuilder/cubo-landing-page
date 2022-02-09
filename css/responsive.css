@@ -151,8 +151,8 @@
   .register-cta {text-align:center !important;margin-right:25px !important;}
   #introvideo {margin-left: 0px !important;text-align: right !important;}
   .package-section .theme-button-one {font-size:16px !important;width:70%;line-height:40px;}
-  .package-section h3 {font-size:16px;margin-bottom:16px;}
-  .package-section p {font-size:13px;line-height:13px;}
+  .package-section h3 {font-size:20px;margin:15px;}
+  .package-section p {font-size:13px;line-height:13px;margin:15px;}
   .testimonial-section .wrapper p {font-size:14px !important;line-height:20px !important;}
   .pricing-grid {margin-left: 0px;margin-right: 0px;margin-top: 20px;}
 
@@ -222,7 +222,7 @@
   .theme-menu-wrapper .right-widget .search-option .dropdown-toggle {text-align: right;width: 25px;}
   .theme-menu-wrapper .right-widget .cart-icon {width: 42px;margin-left: 10px;}
   .theme-title-one h2 {font-size: 30px;padding-bottom: 18px;}
-  .section-spacing {margin-bottom: 60px;}
+  .section-spacing {margin-bottom: 50px;}
   .about-compnay .mission-goal li h4 {font-size: 18px;}
   .about-compnay .mission-goal li .icon {font-size: 35px;}
   .feature-banner .opacity h2 {font-size: 35px;line-height: 45px;}

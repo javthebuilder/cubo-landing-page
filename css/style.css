@@ -104,8 +104,8 @@ Package Section
 .package-section  {
 
 width:100%;
-margin-top:2em;
-margin-bottom:2em;
+margin-top:1em;
+margin-bottom:1em;
 
 }
 .features-section {
@@ -144,7 +144,7 @@ margin-bottom:2em;
   width:100%;
 }
 .package-section p{text-align:center;}
-.package-section h3{text-align:center;font-size:26px;}
+.package-section h3{text-align:center;font-size:35px;}
 .package-section .theme-button-one{
 
   margin-top:25px;
@@ -2239,4 +2239,14 @@ body .theme-button-one:hover {background:#ff7e11; }
 .line-through{
   text-decoration:line-through;
   color:#9c9c9c;
+}
+.promo-tag{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.8em;
+  margin-right: 0.5em;
+  background-color: #ec1c24;
+  color: #fff;
+  line-height: 15px;
+  
 }
