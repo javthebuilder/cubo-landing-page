@@ -86,22 +86,68 @@
 Package Section
 ====================================================================
 ***/
-.more-features{
-  color:#096767;
+
+.appear-button  {
   display:block;
   text-align:center;
   font-weight: 600;
+  color:#096767;
+  margin: 0 auto;
+  border:0;
+  background-color: #ffffff;
+  margin-bottom:25px;
 }
-.package-section{
+.appear-button:hover {
+
+  color:#11c9c9;
+}
+.package-section  {
 
 width:100%;
-margin-top: 5em;
-margin-bottom:5em;
+margin-top:3em;
+margin-bottom:3em;
+
+}
+.features-section {
+
+  width:100%;
+  margin-bottom:250px;
+  opacity:0;
+  height:0px !important;
+  display: block;
+
+}
+.transform  {
+  -webkit-transition: all 0.5s ease;  
+  -moz-transition: all 0.5s ease;  
+  -o-transition: all 0.5s ease;  
+  -ms-transition: all 0.5s ease;  
+  transition: all 0.5s ease;
+}
+.transform-active {
+
+  opacity:1;
+
+}
+.features-grid  { 
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.features-section th, .features-section td{ width:33%;padding-left:10px;padding-right:10px;}
+.features-section th{    line-height: 1em;padding-bottom: 1em;padding-right: 10px;color: #f79e1b;}
+.features-section tr{border-bottom:1px solid #e4e4e4;}
+.border-right{border-right:1px solid #e4e4e4;}
+.features-section table{
+
+  border-collapse: collapse;
+  margin:auto;
+  width:100%;
 
 }
 .package-section p{text-align:center;}
 .package-section h3{text-align:center;font-size:26px;}
 .package-section .theme-button-one{
+
   margin-top:25px;
   margin-bottom:25px;
   width:33%;
@@ -109,14 +155,14 @@ margin-bottom:5em;
   text-align:center;
   display: block;
   margin-left:auto;
-  margin-right:auto;}
+  margin-right:auto;
+
+}
 .pricing-cards-wrapper{
 
   display: flex;
   justify-content: space-around;
   margin-bottom: 0;
-  padding-left: 5%;
-  padding-right: 5%;
   flex-wrap: nowrap;
   flex-direction: row;
   align-content: stretch;
@@ -126,8 +172,8 @@ margin-bottom:5em;
 }
 .pricing-grid{
 
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
   margin-top:20px;
 
 }
@@ -170,11 +216,10 @@ margin-bottom:5em;
   margin-top:1em;
   font-size:14px;
   line-height:12px;
-
-
-
 }
-
+.pricing-item td{
+  border-bottom: 1px solid #e2e1e1;
+}
 
 /*** 
 ====================================================================
@@ -244,6 +289,13 @@ margin-bottom:5em;
   color:#555555;
   font-size: 18px;
   position: relative;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
  }
  .main-page-wrapper {overflow-x:hidden;}
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
@@ -2170,4 +2222,19 @@ body .theme-button-one:hover {background:#ff7e11; }
   display:block;
   width:100% !important;
   box-shadow:20px 20px 50px hsl(0deg 0% 0% / 19%);
+}
+.red {
+  color:#ec1c24;
+}
+.green {
+  color:#096767;
+}
+.orange {
+  color:#ff7e11;
+}
+.yellow-orange {
+  color:#f79e1b;
+}
+.bold{
+  font-weight:bold;
 }

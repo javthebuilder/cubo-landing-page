@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8"/>
 		<!-- For IE -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<!-- For Resposive Device -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 		<!-- For Window Tab Color -->
 		<!-- Chrome, Firefox OS and Opera -->
 		<meta name="theme-color" content="#061948">
 		<!-- Windows Phone -->
-		<meta name="msapplication-navbutton-color" content="#061948">
+		<meta name="msapplication-navbutton-color" content="#061948"/>
 		<!-- iOS Safari -->
-		<meta name="apple-mobile-web-app-status-bar-style" content="#061948">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#061948"/>
 		<title>Welcome to CUBO</title>
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/cubo-icon.png">
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/cubo-icon.png"/>
 		<!-- Main style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<!-- responsive style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 	</head>
 	<body>
 		<div class="main-page-wrapper">
@@ -31,9 +31,12 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div id="divvideo">
-								<video id="introvideo" type="video/mp4" autoplay controls >
+								<video id='introvideo' controls autoplay>
 									<source src="videos/cubo-intro-video.mp4" type="video/mp4">
 								</video>
+								<script>
+									document.getElementById('introvideo').play();
+								</script>
 							</div>
 						</div> <!-- Video Column -->
 						<div class="col-md-6">
@@ -160,27 +163,77 @@
 			
 			<div class="package-section">
 
-				<h3>Set up you Online Store Today, Resume your purchase after Registration</h3>
+				<h3>Set up your Online Store Today, Resume your purchase after Registration</h3>
 				<p>Start your 6 & 12 Month Purchase, First 3-Months is Absolutely Free</p>
-				<a href="https://cubo.market/register" class="theme-button-one">BECOME A SUBSCRIBER</a>
+
 
 				<div class="pricing-grid">
 					<div class="pricing-cards-wrapper">
 						<div class="pricing-item">
-							<h2>12 MONTHS</h2>
+							<h2>REGISTRATION</h2>
 							<h6>Full-Package Offer</h6>
 
-							<h1>1100</h1>
+							<h1>₱3000</h1>
 						</div>
 						<div class="pricing-item">
-							<h2>6 MONTHS</h2>
-							<h6>Limited-time Offer</h6>
-							<h1>600</h1>
+							<table style="margin:auto;">
+								<tr><td><h2 style="text-align:center;">SUBSCRIPTION</h2></td></tr>
+								<tr><td><h5 style="text-align:center;"><span class="bold red">₱888.00</span> Per Month</h5></td></tr>
+								<tr><td><h6 style="text-align:center;">12 Year Subscription | No Hidden Fees</h6></td></tr>
+							</table>
 						</div>
-					</div>
-				</div>
-				<a class="more-features"style="color:#096767;display:block;text-align:center;" href="#">Show more Package Features (+)</a>
+					</div>					
 		
+				</div>
+				<a href="https://cubo.market/register" class="theme-button-one">BECOME A SUBSCRIBER</a>
+			</div>
+			<input class="appear-button" type="button" id="button" value="Subscription Plans - See more (+)"/>
+			<div class="features-section transform">
+				<div class="features-grid">
+					<table>
+						<thead>
+							<tr>
+								<th>
+									Features & Offers
+								</th>
+								<th>
+									12 Months
+								</th>
+								<th>
+									6 Months
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="bold">Price</td>
+								<td>₱888.00 / Month</td>
+								<td>₱1000.00 / Month</td>
+							</tr>
+							<tr>
+								<td class="bold">Limited Offer</td>
+								<td>No Subscription Charge on the First 6 Months</td>
+								<td>No Subscription Charge on the First 3 Months</td>
+							</tr>
+							<tr>
+								<td class="bold">Cubo Base Features</td>
+								<td><span><i class="fa fa-check green"></i></span></td>
+								<td><span><i class="fa fa-check green"></i></span></td>
+							</tr>
+							<tr>
+								<td class="bold">Customizable Shop Page</td>
+								<td><span><i class="fa fa-check green"></i></span></td>
+								<td><span><i class="fa fa-check green"></i></span></td>
+							</tr>
+							<tr>
+								<td class="bold">Point of Sales Integration</td>
+								<td><span><i class="fa fa-check green"></i></span></td>
+								<td><span><i class="fa fa-check green"></i></span></td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
 			</div>
 
 	        <!-- Scroll Top Button -->
@@ -191,6 +244,7 @@
 
 			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 			<!-- jQuery -->
+			
 			<script src="vendor/jquery.2.2.3.min.js"></script>
 			<!-- Popper js -->
 			<script src="vendor/popper.js/popper.min.js"></script>
@@ -214,6 +268,11 @@
 
 			<!-- Theme js -->
 			<script src="js/theme.js"></script>
+			<script>
+				$("#button").click(function() {
+				$('.transform').toggleClass('transform-active');
+				});
+			</script>
 		</div> <!-- main-page-wrapper -->
 	</body>
 </html>
