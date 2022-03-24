@@ -42,7 +42,7 @@
 						<div class="col-md-6">
 								<div><h2 style="text-align: right;">START SELLING ONLINE</h2></div>
 								<p>CUBO brings quality and safe  trade to Cebuanos! <br/>Join Cubo today to grow your business, online ta Bai!</p>
-								<div class="register-cta"><a href="https://cubo.market/register" class="theme-button-one">Register Now</a></div>	
+								<div class="register-cta"><a href="https://cubo.market/registerasmerchant" class="theme-button-one">Register Now</a></div>	
 						</div>
 					</div>
 				</div> <!-- Opacity -->
@@ -275,4 +275,25 @@
 			</script>
 		</div> <!-- main-page-wrapper -->
 	</body>
+	<script>
+		$(document).ready(function(){
+			
+
+			$.ajax({
+            type: 'GET',
+            url: 'http://127.0.0.1:8000/api/add_page_visit/firstlandingpage',
+            data: {
+                
+            },
+            success: function(data) {
+
+                console.log(data.count);
+
+            }
+
+        });
+
+
+		});
+	</script>
 </html>
