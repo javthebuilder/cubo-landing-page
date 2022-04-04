@@ -20,10 +20,10 @@
   .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 57px;line-height:52px;}
   .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;}
   .register-cta {text-align:right !important;margin-right:25px !important;}
-  #introvideo {margin-left: 25px !important;text-align: right !important;}
   .package-section .theme-button-one {font-size:24px !important;}
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
-  .shop-details .product-details .product-info {padding-left: 0;}
+  .shop-details .product-details .product-info {padding-left: 0;}.
+  #introvideo {width:100% !important;height:auto;}
 }
 /*(max-width: 1199px)*/
 
@@ -32,7 +32,6 @@
   .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 57px;line-height:52px;}
   .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size:16px !important;}
   .register-cta {text-align:right !important;margin-right:25px !important;}
-  #introvideo {margin-left: 25px !important;text-align: right !important;}
   .package-section .theme-button-one {font-size:22px !important;}
   .top-feature .main-content {padding-left: 10%;padding-right: 10%;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
@@ -52,6 +51,7 @@
   .why-we-best .wrapper .best-list-item {padding-top: 20px;padding-bottom: 29px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text {padding-top: 60px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:0;}
+  #introvideo {width:80% !important;height:auto;}
 }
 /*(min-width: 992px) and (max-width: 1199px)*/
 
@@ -60,10 +60,9 @@
   .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 52px;line-height:51px;}
   .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;}
   .register-cta {text-align:right !important;margin-right:25px !important;}
-  #introvideo {margin-left: 25px !important;text-align: right !important;}
 
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
-  .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 80px;}
+  .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 1em;}
   .top-feature .main-content {padding: 30px 15px;}
   .header-one .logo {width: 100%;text-align: center;margin-bottom: 20px;}
   .header-one .top-header {padding-top: 25px;}
@@ -117,6 +116,7 @@
   .theme-sidebar-one,.blog-sidebar {margin-top: 60px;}
   .contact-us-section .form-wrapper {height: auto;}
   #theme-main-banner .camera_pag {left:2px;}
+  #introvideo {width:100% !important;height:auto;}
 } 
 /*(max-width: 991px)*/
 
@@ -125,7 +125,6 @@
   .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 40px;line-height:35px;}
   .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size: 12px;line-height:14px;}
   .register-cta {text-align:right !important;margin-right:25px !important;}
-  #introvideo {margin-left: 25px !important;text-align: right !important;}
   .package-section .theme-button-one {font-size:24px !important;width:50% !important;}
 
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
@@ -136,11 +135,12 @@
   .pricing-item h2{font-size:30px;}
   .pricing-item h6{font-size:14px;}
   #theme-main-banner {height: 600px !important;}
-  .pricing-grid {padding-left: 0px;padding-right: 0px;margin-top: 20px;}
+  .pricing-grid {padding-left: 0px;padding-right: 0px;}
   .more-features{font-size:14px;}
   .features-table th  {font-size:14px;}
   .features-grid  {font-size:0.7em;}
   .package-section h3 {font-size:43px;}
+  #introvideo {width:100% !important;height:auto;}
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
@@ -150,13 +150,28 @@
   .feature-banner .opacity h2{padding-right: 25px !important;padding-left: 25px !important;font-size: 84px;line-height: 68px;margin-top: 25px;text-align: center !important;}
   .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size:26px;line-height:26px;text-align: center;}
   .register-cta {text-align:center !important;margin-right:25px !important;}
-  #introvideo {margin-left: 0px !important;text-align: right !important;}
   .package-section .theme-button-one {font-size:16px !important;width:70%;line-height:40px;}
   .package-section h3 {font-size:20px;margin:15px;}
   .package-section p {font-size:13px;line-height:13px;margin:15px;}
   .testimonial-section .wrapper p {font-size:14px !important;line-height:20px !important;}
-  .pricing-grid {margin-left: 0px;margin-right: 0px;margin-top: 20px;}
+  .pricing-grid {margin-left: 0px;margin-right: 0px;}
+  #introvideo {width:100% !important;height:auto;padding:0 !important;}
 
+  .footer-grid  {
+    
+    display: grid;
+    grid-template-columns:auto;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-grid-item{text-align: center;}
 
   .header-one .top-header {padding-bottom: 0;}
   .header-one .top-header .address-wrapper {display: none;}
@@ -197,8 +212,9 @@
   #theme-main-banner {height: 500px !important;}
   #theme-main-banner .camera_caption p {font-size: 20px;}
   #theme-main-banner .camera_caption h1 {font-size: 50px;line-height: 60px;}
-  .pricing-grid {padding-left: 0px;padding-right: 0px;margin-top: 20px;}
+  .pricing-grid {padding-left: 0px;padding-right: 0px;}
   .features-section{font-size:13px;}
+  #introvideo {width:100% !important;height:auto;padding:0 !important;}
 }
 /*(min-width: 576px) and (max-width: 767px)*/
 
@@ -209,12 +225,27 @@
   .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size:14px !important;line-height:14px !important;}
   .feature-banner .opacity .theme-button-one {padding-right:21px !important;text-align: right;margin-top:10px !important;font-size:25px !important;line-height:35px !important;}
   .register-cta {text-align:center !important;margin-right:0px !important;}
-  #introvideo {margin-left: 0px !important;text-align: right !important;}
   .pricing-item {width:100% !important;margin-left:0 !important;margin-right:0 !important;}
   .pricing-item h2{font-size:26px;}
   .pricing-item h6{font-size:14px;}
-  .pricing-grid {padding-left: 0px;padding-right: 0px;margin-top: 20px;}
+  .pricing-grid {padding-left: 0px;padding-right: 0px;}
   .features-grid  {font-size:0.5em;}
+  #introvideo {width:100% !important;height:auto;padding:0 !important;}
+  .footer-grid  {
+    
+    display: grid !important;
+    grid-template-columns:auto;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-grid-item{text-align: center;}
 
 
 
@@ -224,7 +255,7 @@
   .theme-menu-wrapper .right-widget .search-option .dropdown-toggle {text-align: right;width: 25px;}
   .theme-menu-wrapper .right-widget .cart-icon {width: 42px;margin-left: 10px;}
   .theme-title-one h2 {font-size: 30px;padding-bottom: 18px;}
-  .section-spacing {margin-bottom: 50px;}
+  .section-spacing {margin: 0px;}
   .about-compnay .mission-goal li h4 {font-size: 18px;}
   .about-compnay .mission-goal li .icon {font-size: 35px;}
   .feature-banner .opacity h2 {font-size: 35px;line-height: 45px;}
@@ -263,7 +294,7 @@
 
 @media (max-width: 650px) {
   .pricing-item {width:100%;margin:0 !important;}
-  
+  #introvideo {width:100% !important;height:auto;padding:0 !important;}
   #success, #error {
     width: 86%;
     height: auto;
@@ -297,6 +328,7 @@
   .features-grid{margin-left:25px;margin-right:25px;}
   .features-section{font-size:11px;}
   .package-section h3 {font-size: 33px;margin: 25px;}
+  #introvideo {width:100% !important;height:auto;padding:0 !important;}
 
 }
 @media (max-width: 380px) {
