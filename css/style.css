@@ -833,6 +833,7 @@ body .theme-button-one:hover {background:#da6a0f; }
   margin-bottom: 0.5em;
   text-transform: inherit;
   color: #fff;
+
 }
 /*---------------- Service Style One --------------*/
 .service-style-one .single-service {
@@ -2338,7 +2339,8 @@ body .theme-button-one:hover {background:#da6a0f; }
   color: #fff;
   line-height: 15px; 
 }
-.market-button{
+.market-button  {
+
   display: inline-block;
   margin-right: 14px;
   padding: 5px 14px 5px 45px;
