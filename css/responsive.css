@@ -17,9 +17,7 @@
 }
 @media (max-width: 1199px) {
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
-  .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 57px;line-height:52px;}
-  .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;}
-  .register-cta {text-align:right !important;margin-right:25px !important;}
+  .feature-banner .opacity h2{font-size: 57px;line-height:52px;}
   .package-section .theme-button-one {font-size:24px !important;}
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
   .shop-details .product-details .product-info {padding-left: 0;}.
@@ -29,9 +27,8 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
-  .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 57px;line-height:52px;}
-  .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size:16px !important;}
-  .register-cta {text-align:right !important;margin-right:25px !important;}
+  .feature-banner .opacity h2{font-size: 57px;line-height:52px;}
+  .feature-banner .opacity p{font-size:16px !important;}
   .package-section .theme-button-one {font-size:22px !important;}
   .top-feature .main-content {padding-left: 10%;padding-right: 10%;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
@@ -57,9 +54,7 @@
 
 @media (max-width: 991px) {
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
-  .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 52px;line-height:51px;}
-  .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;}
-  .register-cta {text-align:right !important;margin-right:25px !important;}
+  .feature-banner .opacity h2{font-size: 52px;line-height:51px;}
 
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
   .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 1em;}
@@ -121,10 +116,12 @@
 /*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+
+  .feature-banner .opacity {padding-left:30px !important;padding-right:30px !important;}
   .feature-banner .opacity .theme-button-one {    padding-right: 25px !important;text-align: right;margin-top: 0px !important;font-size: 20px !important;line-height: 40px !important;}
-  .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 40px;line-height:35px;}
-  .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size: 12px;line-height:14px;}
-  .register-cta {text-align:right !important;margin-right:25px !important;}
+  .feature-banner .opacity h2{font-size: 3em;line-height: 0.785em;}
+  .feature-banner .opacity p{font-size: 1.7em;line-height:1.7em;}
   .package-section .theme-button-one {font-size:24px !important;width:50% !important;}
 
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
@@ -146,12 +143,12 @@
 
 @media (max-width: 767px) {
   
+  .footer-grid-item img{max-width: 256px;height: auto;margin:auto;}
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:40px !important;line-height:60px !important;}
-  .feature-banner .opacity h2{padding-right: 25px !important;padding-left: 25px !important;font-size: 84px;line-height: 68px;margin-top: 25px;text-align: center !important;}
-  .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size:26px;line-height:26px;text-align: center;}
-  .register-cta {text-align:center !important;margin-right:25px !important;}
-  .package-section .theme-button-one {font-size:16px !important;width:70%;line-height:40px;}
-  .package-section h3 {font-size:20px;margin:15px;}
+  .feature-banner .opacity h2{font-size: 84px;line-height: 68px;margin-top: 25px;text-align: center !important;}
+  .feature-banner .opacity p{font-size:26px;line-height:26px;text-align: center;}
+  .package-section .theme-button-one {width: 70%;line-height: 1em;padding: 15px;}
+  .package-section h3 {font-size:45px;margin:15px;}
   .package-section p {font-size:13px;line-height:13px;margin:15px;}
   .testimonial-section .wrapper p {font-size:14px !important;line-height:20px !important;}
   .pricing-grid {margin-left: 0px;margin-right: 0px;}
@@ -204,9 +201,6 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
 
-  .feature-banner .opacity h2{margin-left:25px !important;margin-right:25px !important;}
-  .feature-banner .opacity p{margin-left:25px !important;margin-right:25px !important;}
-
   .header-two .top-header .social-icon li:first-child {margin-left: 0;}
   .our-case .single-case-block .hover-content .text {padding: 0;}
   #theme-main-banner {height: 500px !important;}
@@ -220,11 +214,18 @@
 
 @media (max-width: 575px) {
 
+  .register-cta{text-align: center;}
+  .feature-banner .opacity {padding-left:10px !important;padding-right:10px !important;}
+  .feature-banner .opacity h2{font-size: 41px !important;line-height:37px !important;}
+  .feature-banner .opacity p{font-size:14px !important;line-height:14px !important;}
+  .feature-banner .opacity .theme-button-one {   
 
-  .feature-banner .opacity h2{padding-right:25px !important;padding-left:25px !important;font-size: 41px !important;line-height:37px !important;}
-  .feature-banner .opacity p{padding-right:25px !important;padding-left:25px !important;font-size:14px !important;line-height:14px !important;}
-  .feature-banner .opacity .theme-button-one {padding-right:21px !important;text-align: right;margin-top:10px !important;font-size:25px !important;line-height:35px !important;}
-  .register-cta {text-align:center !important;margin-right:0px !important;}
+    padding-right: 21px !important;
+    margin-top: 41px !important;
+    font-size: 26px !important;
+    line-height: 46px !important;
+    
+  }
   .pricing-item {width:100% !important;margin-left:0 !important;margin-right:0 !important;}
   .pricing-item h2{font-size:26px;}
   .pricing-item h6{font-size:14px;}
@@ -259,7 +260,7 @@
   .about-compnay .mission-goal li h4 {font-size: 18px;}
   .about-compnay .mission-goal li .icon {font-size: 35px;}
   .feature-banner .opacity h2 {font-size: 35px;line-height: 45px;}
-  .feature-banner .opacity,.testimonial-section .overlay,.theme-counter .bg {padding: 60px 0;}
+  .feature-banner .opacity,.testimonial-section .overlay,.theme-counter .bg {padding: 3em 0;}
   .service-style-one .contact-text h5:before {display: none;}
   .testimonial-section .wrapper p {font-size: 18px;line-height: 27px;font-weight: normal;}
   .theme-counter h2 {font-size: 38px;}
@@ -327,13 +328,14 @@
   .pricing-item h2{font-size:29px;}
   .features-grid{margin-left:25px;margin-right:25px;}
   .features-section{font-size:11px;}
-  .package-section h3 {font-size: 33px;margin: 25px;}
+  .package-section h3 {font-size: 40px;margin: 25px;line-height:36px;}
   #introvideo {width:100% !important;height:auto;padding:0 !important;}
 
 }
 @media (max-width: 380px) {
 
-  .package-section .theme-button-one{font-size:12px !important;}
+  
+  .package-section .theme-button-one{width: 70%;line-height: 1em;padding: 15px;}
   .pricing-item {width:100%;margin:0 !important;}
   .cunter-wrapper [class*="col-"] {max-width: 100%;flex: 0 0 100%;}
   .more-features{font-size:12px;}
@@ -342,6 +344,6 @@
   .features-grid  {margin-left: 25px;margin-right:25px;}
   .appear-button{font-size:12px;}
   .feature-banner .opacity h2{font-size:34px !important;line-height:29px !important;}
-  .package-section h3 {font-size: 30px;margin: 25px;}
+  .package-section h3 {font-size: 35px;line-height: 35px;}
 
 }
