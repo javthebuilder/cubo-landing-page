@@ -162,7 +162,7 @@
   width:100%;
 }
 .package-section p{text-align:center;}
-.package-section h3{text-align:center;font-size:64px;font-weight: 900;}
+.package-section h3{text-align:center;font-size:64px;font-weight: 900;margin:20px 80px;}
 .package-section .theme-button-one{
 
   margin-top:25px;
@@ -760,15 +760,15 @@ body .theme-button-one:hover {background:#da6a0f; }
 
 .feature-banner .opacity p {
   
-  font-size: 19px;
-  line-height: 19px;
+  font-size: 32px;
   text-transform: inherit;
   color: #fff;
+  margin-top: 25px;
+  font-weight: 700;
 }
 .feature-banner .opacity h2 {
-  font-size: 64px;
-  line-height: 55px;
-  margin-bottom: 0.5em;
+  font-size: 110px;
+  line-height: 86px;
   text-transform: inherit;
   color: #fff;
 
@@ -2271,7 +2271,7 @@ body .theme-button-one:hover {background:#da6a0f; }
 .promo-tag  {
   padding-left: 5px;
   padding-right: 5px;
-  font-size: 0.8em;
+  font-size: 1em;
   margin-right: 0.5em;
   background-color: #ec1c24;
   color: #fff;

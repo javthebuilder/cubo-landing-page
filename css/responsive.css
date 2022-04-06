@@ -13,7 +13,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
   .feature-banner .opacity h2{font-size: 57px;line-height:52px;}
-  .feature-banner .opacity p{font-size:16px !important;}
+  .feature-banner .opacity p{font-size:21px !important;}
   .package-section .theme-button-one {font-size:22px !important;}
   .top-feature .main-content {padding-left: 10%;padding-right: 10%;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
@@ -129,7 +129,7 @@
   #home-gif-wrap img{margin-top:35px;padding:25px;}
   .footer-grid-item img{max-width: 256px;height: auto;margin:auto;}
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:40px !important;line-height:60px !important;}
-  .feature-banner .opacity h2{font-size: 84px;line-height: 68px;margin-top: 25px;text-align: center !important;overflow-wrap: break-word;}
+  .feature-banner .opacity h2{font-size: 84px;line-height: 68px;text-align: center !important;overflow-wrap: break-word;}
   .feature-banner .opacity p{font-size:26px;line-height:26px;text-align: center;}
   .package-section .theme-button-one {width: 70%;line-height: 1em;padding: 15px;}
   .package-section h3 {font-size:45px;margin:15px;}
@@ -202,7 +202,7 @@
   .register-cta{text-align: center;}
   .feature-banner .opacity {padding-left:10px !important;padding-right:10px !important;}
   .feature-banner .opacity h2{font-size: 41px !important;line-height:37px !important;}
-  .feature-banner .opacity p{font-size:14px !important;line-height:14px !important;}
+  .feature-banner .opacity p{font-size:21px !important;line-height:21px !important;}
   .feature-banner .opacity .theme-button-one {   
 
     padding-right: 21px !important;
@@ -317,7 +317,7 @@
       align-items: flex-start;
       text-align: center;
       margin-bottom: 25px;
-
+ 
   }
 } /*(max-width: 650px)*/
 
@@ -347,7 +347,7 @@
   .features-section{font-size:11px;}
   .features-grid  {margin-left: 25px;margin-right:25px;}
   .appear-button{font-size:12px;}
-  .feature-banner .opacity h2{font-size:34px !important;line-height:29px !important;}
+  .feature-banner .opacity h2{font-size:40px !important;line-height:33px !important;}
   .package-section h3 {font-size: 35px;line-height: 35px;}
 
  } /*(max-width: 380px)*/
