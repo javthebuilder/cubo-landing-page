@@ -7,6 +7,7 @@
   .package-section .theme-button-one {font-size:24px !important;}
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
   .shop-details .product-details .product-info {padding-left: 0;}
+  .slogan-bubble{max-width:150px;height:auto;}
 
 } /*(max-width: 1199px)*/
 
@@ -125,8 +126,9 @@
 
 @media (max-width: 767px) {
   
-  .register-cta{text-align: center;margin-top: 35px;}
-  #home-gif-wrap img{margin-top:35px;padding:25px;}
+  .slogan-bubble {margin: 18px auto;max-width: 150px;height:auto;}
+  .register-cta{text-align: center;margin-top: 10px;}
+  #home-gif-wrap img{margin-top:35px;padding:10px;}
   .footer-grid-item img{max-width: 256px;height: auto;margin:auto;}
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:40px !important;line-height:60px !important;}
   .feature-banner .opacity h2{font-size: 84px;line-height: 68px;text-align: center !important;overflow-wrap: break-word;}

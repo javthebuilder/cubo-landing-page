@@ -27,6 +27,26 @@
 #home-gif-wrap img{
   margin-top: 0 auto;
 }
+.slogan-bubble{
+
+  margin: 15px 0px;
+  max-width: 200px;
+
+  animation-delay: 5s;
+  animation: fadeInAnimation 4s infinite;
+  animation-fill-mode: forwards;
+        
+}
+@keyframes fadeInAnimation {
+  0% { transform: translateX(0%); } 
+  20% { transform: translateX(-10%) rotate(-2deg); } 
+  40% { transform: translateX(10%) rotate(2deg); } 
+  60% { transform: translateX(-10%) rotate(-2deg); } 
+  80% { transform: translateX(10%) rotate(2deg); } 
+  100% { transform: translateX(0%); } 
+}
+  
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -382,7 +402,6 @@
 }
 /*----------------- Theme button ------------------*/
 body .theme-button-one {
-  margin-top: 50px;
   line-height: 69px;
   font-size: 35px;
   font-weight: 900;
