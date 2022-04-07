@@ -31,9 +31,7 @@
 
   margin: 15px 0px;
   max-width: 200px;
-
-  animation-delay: 5s;
-  animation: fadeInAnimation 4s infinite;
+  animation: fadeInAnimation 1.8s infinite;
   animation-fill-mode: forwards;
         
 }
