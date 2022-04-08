@@ -262,7 +262,7 @@
 ====================================================================
 
  ***/
-#loader-wrapper {
+/* #loader-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -280,6 +280,7 @@
   top: 50%;
   margin: -20px auto 0 auto;
 }
+*/
 
 /*==================== Click Top ====================*/
 .scroll-top {
