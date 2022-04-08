@@ -784,11 +784,11 @@ body .theme-button-one:hover {background:#da6a0f; }
   font-weight: 700;
 }
 .feature-banner .opacity h2 {
-  font-size: 110px;
-  line-height: 86px;
+  font-size: 72px;
+  line-height: 64px;
   text-transform: inherit;
   color: #fff;
-
+  overflow-wrap: break-word;
 }
 /*---------------- Service Style One --------------*/
 .service-style-one .single-service {
