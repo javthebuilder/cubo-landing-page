@@ -8,12 +8,16 @@
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
   .shop-details .product-details .product-info {padding-left: 0;}
   .slogan-bubble{max-width:150px;height:auto;}
+  .features-grid{margin: 80px 80px;}
+  #top-logo{max-width: 120px;left: 35px;}
 
 } /*(max-width: 1199px)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
-  .feature-banner .opacity h2{font-size: 42px;line-height:34px;}
+  .feature-banner .opacity h2{font-size: 42px;line-height:0.8em;}
+  .features-grid{margin: 25px 25px;}
+  .row{padding:0px 25px;}
   .feature-banner .opacity p{font-size:21px !important;}
   .package-section .theme-button-one {font-size:22px !important;}
   .top-feature .main-content {padding-left: 10%;padding-right: 10%;}
@@ -42,6 +46,7 @@
   .container {padding-left: 0 !important;padding-right: 0 !important;}
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
   .feature-banner .opacity h2{font-size: 52px;line-height:51px;}
+  .features-grid{margin: 25px 25px;}
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
   .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 1em;}
   .top-feature .main-content {padding: 30px 15px;}
@@ -61,7 +66,7 @@
   .service-style-one .contact-text {padding-top: 15px;}
   .service-style-one .contact-text h4 {font-size: 22px;}
   .testimonial-section .wrapper,.cunter-wrapper {width: 100%;}
-  .testimonial-section .overlay {padding: 75px .5em;}
+  .testimonial-section .overlay {padding: 1em .5em;}
   .theme-counter {padding: 0;}
   .consultation-form .img-box {height: 250px;}
   .consultation-form .form-wrapper {height: auto;padding: 40px 20px;}
@@ -118,7 +123,7 @@
   .pricing-grid {padding-left: 0px;padding-right: 0px;}
   .more-features{font-size:14px;}
   .features-table th  {font-size:14px;}
-  .features-grid  {font-size:0.7em;}
+  .features-grid  {padding:0px 25px;font-size:0.7em;}
   .package-section h3 {font-size:43px;}
   #introvideo {width:100% !important;height:100%;}
 }
@@ -126,6 +131,7 @@
 
 @media (max-width: 767px) {
   
+  #top-logo{margin:0 auto;}
   .slogan-bubble {margin: 18px auto;max-width: 150px;height:auto;}
   .register-cta{text-align: center;margin-top: 10px;}
   #home-gif-wrap img{margin-top:35px;padding:10px;}
@@ -258,7 +264,7 @@
   .about-compnay .mission-goal li .icon {font-size: 35px;}
   
   .feature-banner .opacity h2 {font-size: 35px;line-height: 45px;}
-  .feature-banner .opacity,.testimonial-section .overlay,.theme-counter .bg {padding: 3em .5em;}
+  .feature-banner .opacity,.testimonial-section .overlay,.theme-counter .bg {padding: 1em .5em;}
   
   .service-style-one .contact-text h5:before {display: none;}
   .testimonial-section .wrapper p {font-size: 18px;line-height: 27px;font-weight: normal;}
