@@ -9,8 +9,6 @@
   .shop-details .product-details .product-info {padding-left: 0;}
   .slogan-bubble{max-width:150px;height:auto;}
   .features-grid{margin: 80px 80px;}
-  #top-logo{max-width: 120px;left: 35px;}
-
 } /*(max-width: 1199px)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -131,7 +129,6 @@
 
 @media (max-width: 767px) {
   
-  #top-logo{margin:0 auto;}
   .slogan-bubble {margin: 18px auto;max-width: 150px;height:auto;}
   .register-cta{text-align: center;margin-top: 10px;}
   #home-gif-wrap img{margin-top:35px;padding:10px;}

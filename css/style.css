@@ -24,13 +24,6 @@
 /*------------- Map -------------*/
 @import url('../vendor/sanzzy-map/dist/snazzy-info-window.min.css');
 
-#top-logo{
-  position: absolute;
-  max-width: 164px;
-  top: 15px;
-  left: 15px;
-  height: 50px;
-}
 
 #home-gif-wrap img{
   margin-top: 0 auto;
@@ -62,7 +55,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 1440px;
 }
 .appear-button  {
 
@@ -123,7 +116,7 @@
   font-size: 1em !important;
 }
 .features-grid { 
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 80px auto;
 }
 .footer-section { 
@@ -161,7 +154,7 @@
   flex-wrap: wrap;
 
   width: 100%;
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 50px 0px;
   color: white;
@@ -215,7 +208,7 @@
   align-content: stretch;
   align-items: flex-start;
   text-align: center;
-  max-width: 1170px;
+  max-width: 1440px;
   margin: auto;
 
 }
@@ -351,7 +344,6 @@
  }
  .main-page-wrapper {
    overflow-x:hidden;
-   max-width: 1440px;
    margin: 0 auto;
   }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
@@ -855,7 +847,6 @@ body .theme-button-one:hover {background:#da6a0f; }
 }
 /*-------------------- Testimonial Slider ------------------*/
 .testimonial-section {
-  /*background: url(../images/home/9.jpg) no-repeat center center;*/
   background-size: cover;
   background-attachment: fixed;
   background-color: #ff7e11;
