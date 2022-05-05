@@ -104,7 +104,7 @@
 }  /*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .footer-grid{padding:25px 25px;}
   .feature-banner .opacity {padding-left:30px !important;padding-right:30px !important;}
   .feature-banner .opacity .theme-button-one {padding-right: 25px !important;margin-top: 0px !important;font-size: 20px !important;line-height: 40px !important;}
   .feature-banner .opacity h2{font-size: 1.8em;line-height: 0.785em;}
@@ -132,7 +132,7 @@
   .slogan-bubble {margin: 18px auto;max-width: 150px;height:auto;}
   .register-cta{text-align: center;margin-top: 10px;}
   #home-gif-wrap img{margin-top:35px;padding:10px;}
-  .footer-grid-item img{max-width: 256px;height: auto;margin:auto;}
+  .footer-grid-item img{max-width: 185px;height: auto;margin:auto;}
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:40px !important;line-height:60px !important;}
   .feature-banner .opacity h2{font-size: 84px;line-height: 68px;text-align: center !important;overflow-wrap: break-word;}
   .feature-banner .opacity p{font-size:26px;line-height:26px;text-align: center;}
@@ -143,21 +143,6 @@
   .pricing-grid {margin-left: 0px;margin-right: 0px;}
   #introvideo {width:100% !important;height:100%;padding:0 !important;}
 
-  .footer-grid  {
-    
-    display: grid;
-    grid-template-columns:auto;
-    width: 100%;
-    padding: 0;
-    margin: auto;
-    color: white;
-    align-content: center;
-    justify-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    
-  }
 
   .footer-grid-item{text-align: center;}
   .header-one .top-header {padding-bottom: 0;}
@@ -210,8 +195,9 @@
 @media (max-width: 575px) {
 
   .register-cta{text-align: center;}
+  .feature-banner .opacity { }
   .feature-banner .opacity {padding-left:10px !important;padding-right:10px !important;}
-  .feature-banner .opacity h2{font-size: 41px !important;line-height:37px !important;}
+  .feature-banner .opacity h2{font-size: 37px !important;line-height:0.8em !important;}
   .feature-banner .opacity p{font-size:21px !important;line-height:21px !important;}
   .feature-banner .opacity .theme-button-one {   
 
@@ -236,7 +222,7 @@
     display: grid !important;
     grid-template-columns:auto;
     width: 100%;
-    padding: 0;
+    padding: 25px 25px;
     margin: auto;
     color: white;
     align-content: center;
@@ -261,7 +247,7 @@
   .about-compnay .mission-goal li .icon {font-size: 35px;}
   
   .feature-banner .opacity h2 {font-size: 35px;line-height: 45px;}
-  .feature-banner .opacity,.testimonial-section .overlay,.theme-counter .bg {padding: 1em .5em;}
+  .feature-banner .opacity,.testimonial-section .overlay,.theme-counter .bg {padding: 3em .5em;}
   
   .service-style-one .contact-text h5:before {display: none;}
   .testimonial-section .wrapper p {font-size: 18px;line-height: 27px;font-weight: normal;}
@@ -362,7 +348,7 @@
   .features-section{font-size:11px;}
   .features-grid  {margin-left: 25px;margin-right:25px;}
   .appear-button{font-size:12px;}
-  .feature-banner .opacity h2{font-size:40px !important;line-height:33px !important;}
+  .feature-banner .opacity h2{font-size:33px !important;}
   .package-section h3 {font-size: 35px;line-height: 35px;}
 
  } /*(max-width: 380px)*/
