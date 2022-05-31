@@ -1,7 +1,6 @@
 /* Responsive CSS Document */
 
 @media (max-width: 1199px) {
-
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
   .feature-banner .opacity h2{font-size: 57px;line-height:52px;}
   .package-section .theme-button-one {font-size:24px !important;}

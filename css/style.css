@@ -33,7 +33,7 @@
 .slogan-bubble{
 
   margin: 15px 0px;
-  max-width: 200px;
+  max-width: 120px;
   animation: fadeInAnimation 1.8s infinite;
   animation-fill-mode: forwards;
         
@@ -55,7 +55,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1170px;
 }
 .appear-button  {
 
@@ -81,8 +81,8 @@
 .video-section  {
 
   margin: auto;
-  height: 50vh;
-  padding: 30px 80px;
+  width:100%;
+  height:425px;
 
   }
   #introvideo {
@@ -116,13 +116,14 @@
   font-size: 1em !important;
 }
 .features-grid { 
-  max-width: 1440px;
+  max-width: 1170px;
   margin: 80px auto;
 }
 .footer-section { 
   width: 100%;
-  min-height:300px;
-  background-image: url("../images/patterned-background.png");
+  min-height:500px;
+  background-color: #ec1c24;
+  /* background-image: url("../images/patterned-background.png"); */
   background-size: cover;
 }
 .footer-grid-item h4 {  
@@ -154,7 +155,7 @@
   flex-wrap: wrap;
 
   width: 100%;
-  max-width: 1440px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 50px 0px;
   color: white;
@@ -186,7 +187,13 @@
   width:100%;
 }
 .package-section p{text-align:center;}
-.package-section h3{text-align:center;font-size:64px;font-weight: 900;margin:20px 80px;}
+.package-section h3{
+      text-align: center;
+    font-size: 65px;
+    line-height: .954em;
+    font-weight: 800;
+    margin: 20px 80px;
+}
 .package-section .theme-button-one{
 
   margin-top:55px;
@@ -208,7 +215,7 @@
   align-content: stretch;
   align-items: flex-start;
   text-align: center;
-  max-width: 1440px;
+  max-width: 1170px;
   margin: auto;
 
 }
@@ -329,11 +336,8 @@
  body {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   position: relative;
-  background-image: url('../images/cubo-white-bg.png');
-  background-size:contain;
-  background-repeat: repeat-y;
 
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -347,7 +351,7 @@
    margin: 0 auto;
   }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
- h1,h2,h3,h4,h5,h6 {font-family: 'Nunito Sans', sans-serif; color: #232323;}
+ h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif; color: #232323;}
  h1 {font-size: 60px; font-weight: 900;line-height: 70px;}
  h2 {font-size: 38px; font-weight: 900;}
  h3 {font-size: 32px; font-weight: 700;}
@@ -356,7 +360,7 @@
  h6 {font-size: 20px; font-weight: normal;}
  p {line-height: 27px;}
  ul {list-style-type: none;}
- body a {text-decoration: none;color: #232323; display: inline-block;font-family: 'Nunito Sans', sans-serif;}
+ body a {text-decoration: none;color: #232323; display: inline-block;font-family: 'Montserrat', sans-serif;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
  img {max-width: 100%; display: block;}
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;}
@@ -367,6 +371,7 @@
 .m-bottom0 {margin-bottom: 0 !important;}
 .p-bottm0 {padding-bottom: 0 !important;}
 .no-border {border: none !important;}
+.header-one .top-header .address-wrapper .quotes a {color:white;}
 /*--------------------- Transition --------------------*/
 .tran3s,h2 a,h3 a,h4 a,h5 a,h6 a,.header-one .top-header .address-wrapper .quotes a,.header-one .theme-menu-wrapper .right-widget .social-icon li a,#mega-menu-holder ul.dropdown li a:before,.theme-button-one,
 #theme-main-banner .camera_pag .camera_pag_ul li > span,.top-feature .main-content,.service-style-one .single-service .text,.service-style-one .single-service,
@@ -402,13 +407,15 @@
 .testimonial-section .owl-theme .owl-dots .owl-dot.active span,.testimonial-section .owl-theme .owl-dots .owl-dot:hover span,#polyglotLanguageSwitcher ul.dropdown li:hover,
 .our-case .single-case-block .hover-content .text .details:hover,.our-blog .single-blog .image-box .overlay .date,.core-values .single-value-block .image-box .overlay a:hover,
 .theme-sidebar-one .sidebar-brochures ul,.theme-pagination ul li a:hover,.theme-pagination ul li.active a,.blog-sidebar .sidebar-tags ul li.active a,.blog-sidebar .sidebar-tags ul li a:hover  {
-  background: #ff7e11;
+  background: #f79e1b;
 }
 .header-one .top-header .address-wrapper .quotes a,#theme-main-banner .camera_pag .camera_pag_ul li,.theme-pagination ul li a:hover,.theme-pagination ul li.active a,.blog-sidebar .sidebar-tags ul li.active a,
 .blog-sidebar .sidebar-tags ul li a:hover,.shop-page .single-product:hover .image-box {
   border-style: solid;
-  border-color:#096767;
+  border-color:#f79e1b;
 }
+.top-header h6 {color:#fff;}
+.top-header p {color:#fff;}
 /*----------------- Theme button ------------------*/
 body .theme-button-one {
   line-height: 69px;
@@ -423,10 +430,11 @@ body .theme-button-one {
   display:block;
 
 }
-body .theme-button-one:hover {background:#da6a0f; }
+body .theme-button-one:hover {background:#f79e1b;box-shadow: -1px 7px #bd7915;}
 /*------------------- Theme Title ------------------*/
 .theme-title-one {position: relative;text-align: center;}
 .theme-title-one h2 {
+  color:#ec1c24;
   position: relative;
   text-transform: uppercase;
   padding-bottom: 22px;
@@ -461,9 +469,11 @@ body .theme-button-one:hover {background:#da6a0f; }
 .theme-pagination ul li.active a {cursor: default;}
 /*--------------------------- Theme Header One  ---------------------*/
 .header-one {position: relative;}
-.header-one .top-header {background: #fff;padding: 40px 0 32px 0;}
+.header-one .top-header {background: #ec1c24;padding: 40px 0 32px 0;}
+.header-one .clearfix{max-width: 1170px;}
 .header-one .top-header .address-wrapper li {display: inline-block;vertical-align: middle;}
 .header-one .top-header .address-wrapper .quotes a {
+  color:#fff;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -473,12 +483,15 @@ body .theme-button-one:hover {background:#da6a0f; }
   border-radius: 5px;
 }
 .header-one .top-header .address-wrapper .quotes a:hover {color: #fff;}
+.header-one .top-header .address-wrapper .address h1,h2,h3,h4,h5,h6,p {color: #2b2b2b;}
 .header-one .top-header .address-wrapper .address {
   position: relative;
   padding: 0 38px 0 60px;
   margin-right: 15px;
+  color:#fff;
 }
 .header-one .top-header .address-wrapper .address .icon {
+  color:#f79e1b;
   position: absolute;
   top:-6px;
   left:0;
@@ -540,7 +553,7 @@ body .theme-button-one:hover {background:#da6a0f; }
   font-size: 16px;
 }
 .theme-menu-wrapper .right-widget .cart-icon a span {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: absolute;
   width: 15px;
   height: 15px;
@@ -639,6 +652,10 @@ body .theme-button-one:hover {background:#da6a0f; }
   0%  {margin-top:-75px;opacity: 0;}
   50%  {margin-top: -64px;opacity: 0;}
   100% {margin-top: 0;opacity: 1;}
+}
+.logo img{
+  width:100%;
+  height:72px;
 }
 .theme-menu-wrapper.fixed {
   position: fixed !important;
@@ -794,7 +811,7 @@ body .theme-button-one:hover {background:#da6a0f; }
   font-weight: 700;
 }
 .feature-banner .opacity h2 {
-  font-size: 62px;
+  font-size: 48px;
   line-height: 0.8em;
   text-transform: inherit;
   color: #fff;
@@ -948,7 +965,7 @@ body .theme-button-one:hover {background:#da6a0f; }
 .our-team .team-member .overlay .hover-content ul li a:hover {background: #fff;}
 .our-team .team-member .overlay .hover-content p {line-height: 25px;color: #fff;padding-top: 15px;}
 /*------------------ Theme Counter -------------------*/
-.theme-counter {background: #f8faff;padding: 55px 0;}
+.theme-counter {background: #f1f1f1;padding: 55px 0;}
 .theme-counter .bg {
   background: url(../images/home/pattern.png) no-repeat center center;
   text-align: center;
@@ -959,7 +976,7 @@ body .theme-button-one:hover {background:#da6a0f; }
   text-transform: uppercase;
   font-weight: 700;
 }
-.theme-counter h2 {font-size: 42px;font-weight: 700;padding: 12px 0 35px 0;}
+.theme-counter h2 {font-size: 42px;font-weight: 700;padding: 12px 0 35px 0;color:#2b2b2b;}
 .cunter-wrapper {width: 75%;margin: 0 auto; text-align: center;}
 .single-counter-box .number {
   font-family: 'montserrat', sans-serif;
@@ -1064,7 +1081,7 @@ body .theme-button-one:hover {background:#da6a0f; }
 .theme-footer-one .top-footer .footer-recent-post li .post a {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
-  color: #fff;
+  color: #232323;
   line-height: 24px;
   margin-top: -5px;
 }
@@ -1101,7 +1118,7 @@ body .theme-button-one:hover {background:#da6a0f; }
 .theme-footer-one .top-footer .footer-list ul li a {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
-  color: #9ca6bf;
+  color: #232323;
 }
 .theme-footer-one .top-footer .footer-list ul li a:hover {color: #fff;}
 .theme-footer-one .top-footer .footer-newsletter input {
@@ -1250,7 +1267,7 @@ body .theme-button-one:hover {background:#da6a0f; }
 .callout-banner .theme-button-one:hover {color: #fff;background: #000f32;}
 .callout-banner.no-bg {background: none;padding: 0;margin-bottom: 70px;}
 .callout-banner.no-bg .title {
-  color: #232323;
+  color: #fff;
   text-align: right;
 }
 .callout-banner.no-bg p {color: #555555;}
@@ -1266,6 +1283,10 @@ body .theme-button-one:hover {background:#da6a0f; }
           transform:scale(1.1);
 }
 /*------------------- About Company Stye Two -------------------*/
+.about-compnay{
+  padding-top:80px;
+  padding-bottom:80px;
+}
 .about-compnay-two {
   background: url(../images/home/11.jpg) no-repeat center center;
   background-size: cover;
@@ -1274,7 +1295,7 @@ body .theme-button-one:hover {background:#da6a0f; }
 }
 .about-compnay-two .overlay {background: rgba(0,26,87,0.8);padding: 100px 0;}
 .about-compnay-two .theme-title-one {text-align: left;margin-bottom: 30px;}
-.about-compnay-two .theme-title-one h2 {color: #fff;}
+.about-compnay-two .theme-title-one h2 {color:#2b2b2b}
 .about-compnay-two .theme-title-one h2:before {left:0;margin: 0;color: #919fbf;}
 .about-compnay-two .text p {
   color: #cad2e5;
@@ -1860,9 +1881,9 @@ body .theme-button-one:hover {background:#da6a0f; }
 .blog-details .share-option .social-icon li {
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #232323;
+  color: #fff;
 }
 .blog-details .share-option .tag-meta li i,
 .blog-details .share-option .social-icon li i {
@@ -2128,8 +2149,8 @@ body .theme-button-one:hover {background:#da6a0f; }
   vertical-align: middle;
 }
 .shop-details .product-details .product-info .order-box li:nth-child(1) {
-  font-family: 'Nunito Sans', sans-serif;
-  color: #232323;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
   margin-right: 5px;
 }
 .shop-details .product-details .product-info .order-box li:nth-child(2) button,
