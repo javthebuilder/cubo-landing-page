@@ -869,7 +869,7 @@ body .theme-button-one:hover {background:#f79e1b;box-shadow: -1px 7px #bd7915;}
   background-color: #ff7e11;
 }
 .testimonial-section .overlay {background: rgba(0,0,0,0.1);padding: 3em .5em;}
-.testimonial-section .wrapper {width: 100%;padding-right: 15px;}
+.testimonial-section .wrapper {width: 100%;padding: 10px;}
 .testimonial-section .wrapper .bg {
   background: #fff;
   border-radius: 5px;
