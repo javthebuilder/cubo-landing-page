@@ -196,14 +196,14 @@
 }
 .package-section .theme-button-one{
 
-  margin-top:55px;
-  margin-bottom:25px;
+  margin:25px auto;
+  padding: .5em .5em;
   width:480px;
-  font-size:24px;
+  font-size:32px;
+  line-height: 1em;
   text-align:center;
   display: block;
-  margin-left:auto;
-  margin-right:auto;
+
 
 }
 .pricing-cards-wrapper{
@@ -430,7 +430,12 @@ body .theme-button-one {
   display:block;
 
 }
-body .theme-button-one:hover {background:#f79e1b;box-shadow: -1px 7px #bd7915;}
+body .theme-button-one:hover {
+  background:#f79e1b;
+  box-shadow: 0 8px 0px 0px #bd7915;
+  transform: translateY(-0.3em);
+}
+
 /*------------------- Theme Title ------------------*/
 .theme-title-one {position: relative;text-align: center;}
 .theme-title-one h2 {

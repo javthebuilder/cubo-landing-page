@@ -3,7 +3,7 @@
 @media (max-width: 1199px) {
   .feature-banner .opacity .theme-button-one {padding-right:25px !important;text-align: right;margin-top:10px !important;font-size:30px !important;line-height:55px !important;}
   .feature-banner .opacity h2{font-size: 57px;line-height:52px;}
-  .package-section .theme-button-one {font-size:24px !important;}
+  .package-section .theme-button-one {font-size:32px !important;}
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
   .shop-details .product-details .product-info {padding-left: 0;}
   .slogan-bubble{max-width:150px;height:auto;}
@@ -16,7 +16,7 @@
   .features-grid{margin: 25px 25px;}
   .row{padding:0px 25px;}
   .feature-banner .opacity p{font-size:21px !important;}
-  .package-section .theme-button-one {font-size:22px !important;}
+  .package-section .theme-button-one {font-size:24px !important;}
   .top-feature .main-content {padding-left: 10%;padding-right: 10%;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
   .header-one .top-header .address-wrapper .address {padding-right: 20px;}
@@ -107,7 +107,7 @@
   .feature-banner .opacity .theme-button-one {padding-right: 25px !important;margin-top: 0px !important;font-size: 20px !important;line-height: 40px !important;}
   .feature-banner .opacity h2{font-size: 1.8em;line-height: 0.785em;}
   .feature-banner .opacity p{font-size: 1.7em;line-height:1.7em;}
-  .package-section .theme-button-one {font-size:24px !important;width:50% !important;}
+  .package-section .theme-button-one {font-size:22px !important;width:50% !important;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
   .service-style-one .single-service .text {padding-left: 10px;padding-right: 5px;}
   .theme-footer-one .bottom-footer ul li a {margin-left: 20px;}
