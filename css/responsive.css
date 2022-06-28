@@ -314,7 +314,7 @@
   .pricing-item h2{font-size:29px;}
   .features-grid{margin-left:25px;margin-right:25px;}
   .features-section{font-size:11px;}
-  .package-section h3 {font-size: 40px;margin: 25px;line-height:.768em;}
+  .package-section h3 {margin: 25px;line-height:1em;}
   #introvideo {width:100% ;height:100%;padding:0 ;}
 
 } /*(max-width: 425px)*/
@@ -330,6 +330,5 @@
   .features-grid  {margin-left: 25px;margin-right:25px;}
   .appear-button{font-size:12px;}
   .feature-banner .opacity h2{font-size:33px ;}
-  .package-section h3 {font-size: 38px;line-height: 0.962em;}
 
  } /*(max-width: 380px)*/
