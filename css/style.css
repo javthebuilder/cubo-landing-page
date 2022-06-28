@@ -444,7 +444,7 @@ body .theme-button-one:hover {
   color:#ec1c24;
   position: relative;
   text-transform: uppercase;
-  padding-bottom: 22px;
+  padding:25px 0px;
 }
 .theme-title-one h2:before {
   content: '';
