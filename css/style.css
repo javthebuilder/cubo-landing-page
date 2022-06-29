@@ -174,7 +174,7 @@
 
   width: 100%;
   height:auto;
-  max-width: 150px;
+  max-width: 250px;
   
 }
 
@@ -1783,8 +1783,7 @@ body .theme-button-one:hover {
 .tabs {
   position: relative;
   margin: 1rem 0;
-  background: #096767;
-  height: 14.75rem;
+  height: 12rem;
 }
 .tabs::before,
 .tabs::after {
@@ -1807,7 +1806,7 @@ body .theme-button-one:hover {
   height: 3em;
   padding: 0 1.618em;
   background: #075757;
-  border-right: 0.345rem solid #096767;
+  margin-right:7px;
   color: #fff;
   cursor: pointer;
   top: 0;
@@ -1841,15 +1840,15 @@ body .theme-button-one:hover {
   transition: all 0.35s;
 }
 .tab-switch:checked + .tab-label {
-  background: #fff;
-  color: #2c3e50;
+  background:#f1f1f1;
+  color: #096767;
   border-bottom: 0;
-  border-right: 0.125rem solid #fff;
   transition: all 0.35s;
   z-index: 1;
   top: -0.0625rem;
 }
 .tab-switch:checked + label + .tab-content {
+  background-color: #f1f1f1;
   display: flex;
   z-index: 2;
   opacity: 1;
@@ -1872,7 +1871,7 @@ body .theme-button-one:hover {
 .tab-content-item img{
   margin-right:25px;
   width: auto;
-  max-height: 50px;
+  max-height: 72px;
 }
 .tab-content-item ul {
   display: block;
