@@ -1848,7 +1848,6 @@ body .theme-button-one:hover {
   top: -0.0625rem;
 }
 .tab-switch:checked + label + .tab-content {
-  background-color: #f1f1f1;
   display: flex;
   z-index: 2;
   opacity: 1;
