@@ -7,14 +7,11 @@
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
   .shop-details .product-details .product-info {padding-left: 0;}
   .slogan-bubble{max-width:150px;height:auto;}
-  .features-grid{margin: 80px 80px;}
 } /*(max-width: 1199px)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .feature-banner .opacity .theme-button-one {padding-right:32px ;text-align: right;margin-top:10px ;font-size:30px ;line-height:55px ;}
   .feature-banner .opacity h2{font-size: 42px;line-height:0.8em;}
-  .features-grid{margin: 25px 25px;}
-  .row{padding:0px 25px;}
   .feature-banner .opacity p{font-size:21px ;}
   .package-section .theme-button-one {font-size:24px;}
   .top-feature .main-content {padding-left: 10%;padding-right: 10%;}
@@ -42,7 +39,6 @@
 
   .feature-banner .opacity .theme-button-one {padding-right:25px ;text-align: right;margin-top:10px ;font-size:30px ;line-height:55px ;}
   .feature-banner .opacity h2{font-size: 52px;line-height:51px;}
-  .features-grid{margin: 25px 25px;}
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
   .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 1em;}
   .top-feature .main-content {padding: 30px 15px;}
@@ -57,7 +53,7 @@
   #mega-menu-holder>ul> li> a {color: #555555;}
   #mega-menu-holder>ul> li.active > a, #mega-menu-holder>ul> li:hover > a,
   #mega-menu-holder>ul> li.active > .sub-toggle, #mega-menu-holder>ul> li:hover > .sub-toggle {color: #001a57;}
-  .about-compnay img {display: none;}
+  .about-company img {display: none;}
   .service-style-one .contact-text {padding-top: 15px;}
   .service-style-one .contact-text h4 {font-size: 22px;}
   .testimonial-section .wrapper,.cunter-wrapper {width: 100%;}
@@ -82,8 +78,8 @@
   .callout-banner p {padding: 20px 0;}
   .callout-banner p:before {display: none;}
   .callout-banner .theme-button-one {float: none;}
-  .about-compnay-two .overlay,.core-values {padding: 60px 0;}
-  .about-compnay-two .quote-form {margin-top: 40px;}
+  .about-company-two .overlay,.core-values {padding: 60px 0;}
+  .about-company-two .quote-form {margin-top: 40px;}
   .faq-section,.faq-section .overlay,.why-we-best,.why-we-best .overlay {height: auto;}
   .faq-section .overlay,.why-we-best .overlay {padding: 60px 0;}
   .faq-section .wrapper .img-box,.why-we-best .wrapper .img-box,.contact-us-section .img-box {height: 250px;border-radius: 5px 5px 0 0;}
@@ -92,7 +88,7 @@
   .theme-footer-two {padding-top: 60px;}
   .theme-footer-two .bottom-footer,.theme-footer-two .top-footer .title {margin-top: 0;}
   .theme-inner-banner .overlay {padding: 80px 0 60px 0;}
-  .about-compnay-two .left-img {margin-top:20px;width: 100%;}
+  .about-company-two .left-img {margin-top:20px;width: 100%;}
   .shop-details .product-details .product-info {padding-top: 40px;}
   .theme-sidebar-one,.blog-sidebar {margin-top: 60px;}
   .contact-us-section .form-wrapper {height: auto;}
@@ -117,7 +113,7 @@
   .pricing-grid {padding-left: 0px;padding-right: 0px;}
   .more-features{font-size:14px;}
   .features-table th  {font-size:14px;}
-  .features-grid  {padding:0px 25px;font-size:0.7em;}
+  .features-grid  {padding:0;font-size:0.7em;}
   .package-section h3 {font-size:43px;}
   #introvideo {width:100% ;height:100%;}
   .header-one .top-header .clearfix {padding:0 30px;}
@@ -162,7 +158,7 @@
   .theme-footer-one .bottom-footer,.theme-footer-one .bottom-footer ul {text-align: center;}
   .theme-footer-one .bottom-footer ul li a {margin: 2px 10px;}
   .our-solution .single-solution-block p {padding: 0;}
-  .about-compnay-two .text p {padding-right: 0;}
+  .about-company-two .text p {padding-right: 0;}
   .faq-section .wrapper .faq-content {padding: 40px 15px;}
   .short-banner .overlay h2 {font-size: 38px;}
   .google-map-one {height: 250px;}
@@ -191,6 +187,9 @@
     flex-direction: column;
 }
 .pricing-item{width:100%;}
+.tabs{display: none;}
+.mobile-payment-grid{display:flex !important;}
+.payment-section h3{border-bottom:1px solid #f1f1f1;padding:15px 0 ;text-align: center;  border-bottom:1px solid #f1f1f1;}
 }
 /*(max-width: 767px)*/
 
@@ -239,8 +238,8 @@
   
   .section-spacing {margin: 0px;}
   
-  .about-compnay .mission-goal li h4 {font-size: 18px;}
-  .about-compnay .mission-goal li .icon {font-size: 35px;}
+  .about-company .mission-goal li h4 {font-size: 18px;}
+  .about-company .mission-goal li .icon {font-size: 35px;}
   
   .feature-banner .opacity h2 {font-size: 35px;line-height:1em;}
   .feature-banner .opacity,.testimonial-section .overlay,.theme-counter .bg {padding: 3em .5em;}
@@ -265,19 +264,7 @@
   .header-two .top-header .social-icon li {margin: 8px 5px 0 5px;}
   
   #polyglotLanguageSwitcher {margin: 0;}
-  .about-compnay-two .quote-form {padding: 25px 15px 30px 15px;}
-  .our-case .single-case-block .hover-content .text {padding: 0 15px;}
-  .our-case .view-all {margin-top: 35px;}
- 
-  .why-we-best .wrapper .best-list-item li {padding-left: 55px;margin-bottom: 45px;}
-  .why-we-best .wrapper .best-list-item li .icon {font-size: 42px;}
- 
-  .shop-page .single-product .image-box {min-height: 270px;padding: 0 5px;}
-  .shop-page .single-product .product-name h5 {font-size: 20px;}
-  .shop-details .product-details .product-tab .product-thumbnail {width: 40%;height: 290px;}
-  .shop-details .product-details .product-tab .product-preview {width: 60%;height: 290px;}
-  .shop-details .product-details .product-tab {min-height: 290px;}
-  .shop-details .product-details .product-info .title {font-size: 22px;}
+  .about-company-two .quote-form {padding: 25px 15px 30px 15px;}
   
   .blog-details .share-option ul {width: 100%;}
  
@@ -312,7 +299,6 @@
   .shop-page .shop-filter li,.project-details .project-details-sidebar .project-history li {width: 100%;}
   .more-features{font-size:14px;}
   .pricing-item h2{font-size:29px;}
-  .features-grid{margin-left:25px;margin-right:25px;}
   .features-section{font-size:11px;}
   .package-section h3 {margin: 25px;line-height:1em;}
   #introvideo {width:100% ;height:100%;padding:0 ;}
@@ -327,7 +313,6 @@
   .more-features{font-size:12px;}
   .features-table th{font-size:12px;}
   .features-section{font-size:11px;}
-  .features-grid  {margin-left: 25px;margin-right:25px;}
   .appear-button{font-size:12px;}
   .feature-banner .opacity h2{font-size:33px ;}
 
