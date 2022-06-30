@@ -97,8 +97,8 @@
 .features-section {
   opacity: 1;
   width:100%;
-  padding:0 !important;
   font-size: 1em !important;
+  margin:2rem 0;
 }
 .transform  {
   -webkit-transition: all 1s ease;  
@@ -123,7 +123,6 @@
   background-color: #ec1c24;
   /* background-image: url("../images/patterned-background.png"); */
   background-size: cover;
-  margin-top:25px;
 }
 .footer-grid-item h4 {  
   color:white !important;
@@ -174,7 +173,7 @@
 
   width: 100%;
   height:auto;
-  max-width: 250px;
+  max-width: 200px;
   
 }
 
@@ -367,7 +366,7 @@
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;}
  button:focus {outline: none;}
  input,textarea {outline: none; box-shadow: none;transition: all 0.3s ease-in-out;}
-.section-spacing {padding: 40px 0;}
+.section-spacing {padding: 5rem 0;}
 .m-top0 {margin-top: 0 !important;}
 .m-bottom0 {margin-bottom: 0 !important;}
 .p-bottm0 {padding-bottom: 0 !important;}
@@ -482,7 +481,7 @@ body .theme-button-one:hover {
 .theme-pagination ul li.active a {cursor: default;}
 /*--------------------------- Theme Header One  ---------------------*/
 .header-one {position: relative;}
-.header-one .top-header {background: #ec1c24;padding: 40px 0 32px 0;}
+.header-one .top-header {background: #ec1c24;padding: 1rem 0}
 .header-one .top-header .address-wrapper li {display: inline-block;vertical-align: middle;}
 .header-one .top-header .address-wrapper .quotes a {
   color:#fff;
@@ -493,6 +492,12 @@ body .theme-button-one:hover {
   padding: 0 27px;
   border-width: 2px;
   border-radius: 5px;
+}
+.top-header-flex  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-one .top-header .address-wrapper .quotes a:hover {color: #fff;}
 .header-one .top-header .address-wrapper .address h1,h2,h3,h4,h5,h6,p {color: #2b2b2b;}
@@ -771,7 +776,7 @@ body .theme-button-one:hover {
   padding: 1em 1em;
   border-bottom: 4px solid transparent;
   display: grid;
-  height: 340px;
+  height: 300px;
 
 }
 .top-feature .main-content:hover {border-bottom-color: #096767;}
@@ -818,11 +823,11 @@ body .theme-button-one:hover {
   background-size: cover;
   background-attachment: fixed;
   background-color: #ec1c24;
+  padding: 6rem 0;
 }
 .feature-banner .opacity {
   opacity: 1;
   background: #ec1c24;
-  padding: 100px 0px;
 }
 
 .feature-banner .opacity p {
@@ -989,10 +994,13 @@ body .theme-button-one:hover {
 .our-team .team-member .overlay .hover-content p {line-height: 25px;color: #fff;padding-top: 15px;}
 /*------------------ Theme Counter -------------------*/
 .theme-counter {background: #fafafa;}
+
 .theme-counter .bg {
+  
   background: url(../images/home/pattern.png) no-repeat center center;
   text-align: center;
-  padding: 85px 0 85px 0;
+  padding: 10rem 0;
+
 }
 .theme-counter h6 {
   font-size: 28px;
@@ -1887,9 +1895,10 @@ body .theme-button-one:hover {
   display: inline;
 }
 .grey-overlay img{
-  filter:grayscale(100%);
-  opacity:.5;
-
+  border:1px solid #f1f1f1;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 5px;
 }
 .market-button  {
 
