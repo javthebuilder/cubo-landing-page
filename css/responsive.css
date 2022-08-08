@@ -138,7 +138,7 @@
 
   }
   .footer-grid-item img{max-width: 185px;height: auto;margin:auto;}
-  .feature-banner .opacity .theme-button-one {padding-right:25px ;text-align: center;margin-top:10px ;font-size:40px ;line-height:1.2em;}
+  .feature-banner .opacity .theme-button-one {padding-right:25px ;text-align: center;margin-top:10px ;font-size:25px ;line-height:2em;}
   .feature-banner .opacity h2{font-size: 3.8em;line-height: 0.785em;text-align: center ;overflow-wrap: break-word;}
   .feature-banner .opacity p{font-size:26px;line-height:26px;text-align: center;}
   .package-section .theme-button-one {font-size:21px;width: 70%;line-height: 1em;padding: 15px;}
@@ -301,5 +301,5 @@
   .features-section{font-size:11px;}
   .appear-button{font-size:12px;}
   .feature-banner .opacity h2{font-size:33px ;}
-
+  .feature-banner .opacity .theme-button-one{font-size: 16px;line-height:2em;}
  } /*(max-width: 380px)*/

@@ -24,7 +24,12 @@
 /*------------- Map -------------*/
 @import url('../vendor/sanzzy-map/dist/snazzy-info-window.min.css');
 
-
+.mailingaddress {
+  color:#fff;
+}
+.mailingaddress:hover{
+  color:#f79e1b;
+ }
 #home-gif-wrap img{
   margin-top: 0 auto;
   max-height: 560px;
@@ -98,7 +103,7 @@
   opacity: 1;
   width:100%;
   font-size: 1em !important;
-  margin:2rem 0;
+  padding:2rem 0;
 }
 .transform  {
   -webkit-transition: all 1s ease;  
@@ -1791,7 +1796,7 @@ body .theme-button-one:hover {
 .tabs {
   position: relative;
   margin: 1rem 0;
-  height: 12rem;
+  height: 15rem;
 }
 .tabs::before,
 .tabs::after {
@@ -1841,7 +1846,7 @@ body .theme-button-one:hover {
   top: 2.75em;
   left: 0;
   padding: 1.618rem;
-  background: #fff;
+  background: #fafafa;
   color: #2c3e50; 
 
   opacity: 0;
@@ -1868,8 +1873,9 @@ body .theme-button-one:hover {
 .payment-section  {
 
   width: 100%;
-  max-width: 1170px;
+
   margin: 0 auto;
+  background:#fafafa;
 
 }
 .tab-content-item {
@@ -1939,7 +1945,7 @@ body .theme-button-one:hover {
   background-color: transparent;
 }
 .payment-section h3{
-  padding:15px 0 ;
+  padding:5px 0 ;
 }
 .grey-overlay {
   margin:25px auto;
