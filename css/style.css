@@ -91,7 +91,7 @@
 #introvideo {
 
   display: block;
-  margin:0 auto;
+  margin: 0em auto;
   padding:0;
   text-align: center;
   width:100%;
@@ -110,14 +110,17 @@
 
 /* Feature Banner IDs */
 
-#basic-card {background:#fafafa;color:#a5a5a5;}
-#standard-card {background:none;color:#2b2b2b;}
-#premium-card {background-color: none;color:#2b2b2b;}
+#basic-card {background:none;color:#a5a5a5;border:2px solid #f1f1f1;}
+#standard-card {background:#f1f1f1;color:#f1f1f1;background:#095656;}
+#premium-card {background-image: linear-gradient(#f79e1b, #ff7e11);color:#fafafa;}
 
-.basic-banner {background:#f1f1f1;color:#a5a5a5;width: 100%;text-align: center;padding:0.542em 0px;}
-.standard-banner {background: #096767;width: 100%;text-align: center;color:#fff;padding:0.542em 0px;}
-.premium-banner {background-image: linear-gradient(to right, #f79e1b , #ff7e11);width:100%;text-align:center;color:#fff;padding:0.542em 0px;}
+.basic-banner {color:#a5a5a5;width: 100%;text-align: center;padding:0.542em 0px;}
+.standard-banner {background:none;width: 100%;text-align: center;color:#fff;padding:0.542em 0px;}
+.premium-banner {width:100%;text-align:center;color:#fff;padding:0.542em 0px;}
 
+.card-wrapper {
+  padding:2rem 0em;
+}
 .feature-card-body  {
   border:1px solid #f3f3f3;
   display: flex;
@@ -139,27 +142,26 @@
   border-bottom: 1px solid #f1f1f1;
 }
 .card-price {
-  
-  background-color: #fafafa;
-  color:#666666;
+  background: none;
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 1em 0rem;
   text-align: center;
   display: flex;
   justify-items: center;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
 }
-.card-price p {color:#a5a5a5;}
+.card-price p {color:#f1f1f1;}
 
 .card-description {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 0rem;
   overflow: hidden;
 }
 .card-description h5 {
-  color:#a5a5a5;
+  color:#f1f1f1;
   margin: .673em 0rem;
 }
 .transform  {
@@ -484,13 +486,14 @@
 /*----------------- Theme button ------------------*/
 
 body .theme-button-one {
-  line-height: 69px;
-  font-size: 35px;
+
+  font-size: 24px;
   font-weight: 900;
   text-transform: uppercase;
   color: #fff;
   border-radius: 35px;
-  padding: 0 25px;
+  padding: 1rem 2rem;
+
 }
 .register-cta {
   display:block;
@@ -509,7 +512,7 @@ body .theme-button-one:hover {
   color:#ec1c24;
   position: relative;
   text-transform: uppercase;
-  padding:25px 0px;
+  padding-bottom: 1em;
 }
 .theme-title-one h2:before {
   content: '';
@@ -522,7 +525,7 @@ body .theme-button-one:hover {
   left:50%;
   margin-left: -20px;
 }
-.theme-title-one p {padding-top: 20px;color:#2b2b2b;}
+.theme-title-one p {padding: 2em 0em; color:#2b2b2b;}
 
 /*------------------- Theme Pagination ------------------*/
 .theme-pagination ul {padding-top: 40px;}
@@ -758,6 +761,10 @@ body .theme-button-one:hover {
 
 /*---------------------------- Theme Main Banner -------------------------*/
 
+.main-banner-header h2 {
+  font-size: 51px;
+  line-height: 0.867em;
+}
 #theme-main-banner {margin: 0 !important;}
 .camera_wrap {float:none;}
 #theme-main-banner .camera_overlayer {
@@ -862,6 +869,7 @@ body .theme-button-one:hover {
 
 /*------------------ About Company -----------------*/
 .about-company img {border-radius: 5px;}
+.about-company .text {max-width: 720px;}
 .about-company .mission-goal {
   border-top:1px solid #dcdcdc;
   padding-top: 23px;
@@ -884,6 +892,7 @@ body .theme-button-one:hover {
   background-attachment: fixed;
   background-color: #ec1c24;
   padding: 6rem 0;
+  color:#fff;
 }
 .feature-banner .opacity {
   opacity: 1;
@@ -1085,7 +1094,7 @@ body .theme-button-one:hover {
   line-height: 50px;
 }
 /*------------------ Free Consultation -----------------*/
-.consultation-form .theme-title-one {margin-bottom: 55px;}
+.consultation-form .theme-title-one {margin-bottom: 55px;;}
 .consultation-form .main-content {box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);}
 .consultation-form .img-box {
   background: url(../images/home/10.jpg) no-repeat center;

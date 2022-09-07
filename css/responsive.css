@@ -7,6 +7,11 @@
   .theme-footer-two .top-footer .footer-gallery .wrapper {padding-right: 0;}
   .shop-details .product-details .product-info {padding-left: 0;}
   .slogan-bubble{max-width:150px;height:auto;}
+  .main-banner-header h2 {    
+    
+    font-size: 38px;
+    line-height: 34px;
+  }
 } /*(max-width: 1199px)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -115,10 +120,17 @@
   .package-section h3 {font-size:43px;}
   #introvideo {width:100% ;height:100%;}
   .header-one .top-header .clearfix {padding:0 30px;}
+  .main-banner-header h2 {    
+    font-size: 29px;
+    line-height: 1em;
+  }
+  body .theme-button-one {padding:.5rem 1rem;}
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
+
+
   .header-one .logo {width: 100%;text-align: center;}
   .slogan-bubble {margin: 18px auto;max-width: 100px;height:auto;}
   .register-cta{text-align: center;margin-top: 10px;}
@@ -147,8 +159,7 @@
     max-width: 365px;
     font-size:0.967rem;
   }
-
-  .card-description {padding:1rem 1rem;}
+  .card-description {padding:1rem 0rem;}
   .footer-grid-item img{max-width: 185px;height: auto;margin:auto;}
   .feature-banner .opacity .theme-button-one {padding-right:25px ;text-align: center;margin-top:10px ;font-size:25px ;line-height:2em;}
   .feature-banner .opacity h2{font-size: 3.8em;line-height: 0.785em;text-align: center ;overflow-wrap: break-word;}
@@ -158,7 +169,7 @@
   .package-section p {font-size:13px;line-height:1.862em;}
   .testimonial-section .wrapper p {font-size:14px ;line-height:20px ;}
   .pricing-grid {margin-left: 0px;margin-right: 0px;}
-  #introvideo {width:100% ;height:100%;padding:0 ;}
+  #introvideo{width:100% ;height:100%;padding:0 ;}
   .footer-grid-item{text-align: center;}
   .header-one .top-header {padding-bottom: 0;background:#cf1a21;}
   .header-one .top-header .address-wrapper {display: none;}
@@ -204,6 +215,13 @@
     flex-direction: row;
 }
 .payment-section h3{font-size:48px;border-bottom:1px solid #f1f1f1;padding:15px 0 ;text-align: center;}
+.main-banner-header h2 {
+  
+    font-size: 33px;
+    line-height: .897em;
+    text-align: center;
+  }
+
 }
 /*(max-width: 767px)*/
 
